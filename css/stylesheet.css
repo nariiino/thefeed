@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400;600&display=swap');
+
+body{
+    background-color: black;
+   max-width: 1200px;
+    margin: auto;
+    font-family: 'Orbitron', sans-serif;
+}
+
+header{
+    text-align: center;
+    color: azure;
+    font-family: 'Orbitron', sans-serif;
+    animation: glow 1s ease-in-out infinite alternate;
+    -webkit-animation: glow 1s ease-in-out infinite alternate;
+  -moz-animation: glow 1s ease-in-out infinite alternate;
+  animation: glow 1s ease-in-out infinite alternate;
+}
+
+nav{
+color: azure;
+width: 300px;
+position: fixed;
+top: 207px;
+left: 78px;
+font-family: 'Orbitron', sans-serif;
+}
+
+main {
+color: azure;
+width: 650px;
+margin-left: 500px;
+font-family: 'Orbitron', sans-serif;
+}
+
+section{
+    color: azure;
+    font-family: 'Orbitron', sans-serif;
+    margin-top: 25px;
+    padding: 25px;
+    text-align: center;
+    border: grey 1px solid;
+    moz-box-shadow: inset 0 0 80px #cdc6f1;
+    -webkit-box-shadow: inset 0 0 80px #ccc3f5;
+    box-shadow: inset 0 0 80px z#3b63f5;
+}
+
+section img{
+    padding: 10px;
+}
+
+section video{
+    padding: 10px;
+}
+
+footer{
+    color: azure;
+    background-color: cornflowerblue;
+    width: 300px;
+    position: fixed;
+    bottom: 25px;
+    left: 25px;
+    font-family: 'Orbitron', sans-serif;
+    text-align: center;
+}
+
+#splashgif{
+    margin: auto;
+    text-align: center;
+    width: 600px;x;
+    height: 600px;
+ }
+
+#splashgif:hover{
+    -webkit-filter: brightness(150%);
+}
+
+#smallgif{
+    margin: auto;
+    left: 10px;
+    text-align: left;
+    position: fixed;
+ }
+
+ #smallgif:hover{
+    -webkit-filter: brightness(150%)
+ }
+
