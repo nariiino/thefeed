@@ -45,6 +45,12 @@ position: absolute;
 left: 0;
 }
 
+nav h1{
+    text-align: center;
+    border: #3b63f5 1px solid;
+    padding: 5px;
+}
+
 main {
 
 background-image: url("../img/spark.gif");
