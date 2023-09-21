@@ -26,6 +26,7 @@ header{
 nav{
    
     color: azure;
+    text-decoration: none;
     width: 200px;
     height: 700PX;
     position: fixed;
@@ -49,6 +50,10 @@ nav h1{
     text-align: center;
     border: #3b63f5 1px solid;
     padding: 5px;
+}
+nav h1:hover{
+    border: blue 1px solid;
+    opacity: .8;
 }
 
 main {
@@ -87,7 +92,6 @@ section video{
 footer{
     background-image: url("../img/cherry-blossom.gif");
     color: azure;
-  
     width: 300px;
     position: fixed;
     bottom: 25px;
@@ -144,8 +148,10 @@ footer{
   opacity: 0;
   transition:opacity 0.9s;
   justify-content: center;
+  
 }
 .img__titile{
+    
     
 }
 
@@ -158,4 +164,27 @@ footer{
     font-size: xx-large;
 
 }
+
+nav a{
+    text-decoration: none;
+    color: darkblue;
+    font-weight: bold;
+}
  
+
+
+main img:hover{
+    border: #3b63f5 1px solid;
+    opacity: .8;
+}
+
+main video:hover{
+    border: #3b63f5 1px solid;
+    opacity: .8;
+
+s
+}
+#spidd:hover{
+    filter: brightness(150%);
+    -webkit-filter: brightness(150%)
+}
