@@ -95,6 +95,10 @@ footer{
     font-family: 'Orbitron', sans-serif;
     text-align: center;
 }
+ 
+a{
+    text-decoration: none;
+}
 
 #splashgif{
     margin: auto;
@@ -156,7 +160,8 @@ footer{
    opacity: 1; 
 }
 
-#feedstart{
+#feedstart
+{
       font-size: xx-large;
 
 }
