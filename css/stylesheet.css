@@ -59,14 +59,6 @@ section{
     box-shadow: inset 0 0 80px #3b63f5;
 }
 
-section img{
-    padding: 10px;
-}
-
-section video{
-    padding: 10px;
-}
-
 footer{
     background-image: url("../img/cherry-blossom.gif");
     color: rgb(237, 235, 245);
@@ -81,6 +73,14 @@ footer{
     text-decoration: none;
 }
  
+section img{
+    padding: 10px;
+}
+
+section video{
+    padding: 10px;
+}
+
 #splashgif{
     margin: auto;
     text-align: center;
@@ -98,14 +98,14 @@ footer{
     left: 10px;
     text-align: left;
     position: fixed;
- }
+}
 
- #smallgif:hover{
+#smallgif:hover{
     filter: brightness(150%);
     -webkit-filter: brightness(150%)
- }
+}
 
- nav h1{
+nav h1{
     text-align: center;
     border: #3b63f5 1px solid;
     padding: 5px;
@@ -133,10 +133,7 @@ div.scroll{
     position: relative;
     width: 200px;
 }
-.image__img{
-    display: block;
-    width: 100%;
-}
+
 .image__overlay{
     position: absolute;  
     top: 0;
@@ -156,8 +153,6 @@ div.scroll{
 .image__overlay:hover{
    opacity: 1; 
 }
-
-
 
 .ex{
     position: relative;
@@ -190,8 +185,6 @@ div.scroll{
    opacity: 1; 
 }
 
-
-
 #feedstart{
     font-size: xx-large;
 }
@@ -202,7 +195,6 @@ nav a{
     font-weight: bold;
 }
  
-
 main section img:hover{
     border: #3b63f5 1px solid;
     opacity: .8;
@@ -214,7 +206,6 @@ main section video:hover{
     opacity: .8;
 
 }
-
 
 footer a{
     text-decoration: none;
@@ -235,5 +226,4 @@ section a{
 
 #blink:hover{
     opacity: .5;
- 
 }
