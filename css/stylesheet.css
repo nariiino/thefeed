@@ -228,3 +228,12 @@ section a{
     font-weight: bold;   
 }
 
+#blink{
+    background-image: url(../img/blink.gif);
+    box-shadow: none;
+}
+
+#blink:hover{
+    opacity: .5;
+ 
+}
